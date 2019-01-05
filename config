@@ -36,6 +36,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+c exec google-chrome-stable
 bindsym $mod+x exec emacsclient -c -n
 
+# i3lock
+bindsym $mod+backslash exec --no-startup-id i3lock --ignore-empty-password --show-failed-attempts --color=344055
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
